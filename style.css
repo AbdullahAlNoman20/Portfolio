@@ -93,8 +93,8 @@ margin-bottom: 0;
 
     border-radius: 5px;
     background-color: white;
-    border: 2px;
-    border-color: black;
+    border: 1;
+    border-color: rgb(91, 91, 91);
     color: black;
     font-size: 20px;
     font-weight: 700;
@@ -167,6 +167,8 @@ padding: 30px 150px ;
 
     display: flex;
     gap: 20px;
+    justify-content: space-around;
+
     
 }
 
@@ -195,11 +197,47 @@ font-weight: 700;
 .resume-container{
 
 display: flex;
+background-color: wheat;
+border-radius: 10px;
 gap: 50px;
+justify-content: space-around;
+
+
 
 }
 
 .download-cv{
     text-align: center;
     margin-top: 50px;
+
+
+}
+
+
+footer{
+
+    display: flex;
+    background-color: white;
+    margin-top: 30px;
+    justify-content: space-around;
+
+}
+
+.footer-colum{
+    width: 50%;
+}
+
+.contact input[type="text"] , input[type="email"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 1;
+    border-color: black;
+    width: 100%;
+}
+
+.social-link a{
+margin-right: 25px;
+
 }
